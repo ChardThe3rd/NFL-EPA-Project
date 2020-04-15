@@ -22,10 +22,10 @@
 * Narrowed down to two lines per game_id for each team. Separated by home and away
 * Creating a moving average of 3 previous games to populate in the rows of data. 
 
-![](Images/SQL.PNG)
+![](Images/SQL.png)
 
 *Merging and appending in Pandas*
-![](Images/pandas.PNG)
+![](Images/pandas.png)
 
 ## Model - Trusting The Process
 * Used a Deep Learning Sequential model with a dense layers, 
@@ -41,10 +41,10 @@
 * Run 4: 56.8%
 * Run 5: 57.7%
 * AVG: 58%
-![](Images/effmodel.PNG)
+![](Images/effmodel.png)
 
 ## Team Total EPA for the Season per Each Model Ran
-![](Images/teamtotalEPA.PNG)
+![](Images/teamtotalEPA.png)
 
 ## Model Outcomes and Acknowledgements
 * What are our insights from the various model runs?  All data was too much noise?  
@@ -53,10 +53,10 @@
 * We have no ‘soft factors’ accounted for such as weather, home field advantage, etc.
 
 ## NFL Teams Total EPA Highlighted by Playoff Team or Not
-![](Images/AllTeamsEPA.PNG)
+![](Images/AllTeamsEPA.png)
 
 ## Chiefs EPA By Game
-![](Images/ChiefsEPAByGame.PNG)
+![](Images/ChiefsEPAByGame.png)
 
 ## Lessons Learned - Overtime
 Challenges:
@@ -70,5 +70,5 @@ Opportunities:
 
 ## Conclusion
 Publicly available data can help us better commentate, project, and analyze the game of football. It can be useful when making decisions in fantasy sports or when wagering on games, but it doesn't replace X's and O's
-![](Images/TurningPoint.PNG)
+![](Images/TurningPoint.png)
 
