@@ -14,7 +14,7 @@
 * The value of a football play has traditionally been measured in yards gained.  But this is now considered a flawed measurement because not all yards are equal. 
 * A 4-yard gain on 3rd down and 3 is much more valuable than a 4-yard gain on 3rd and 8. Any measure of success must consider the down and distance situation.
 * Field position is also an important consideration. Yards gained near the goal line are tougher to come by and are more valuable than yards gained at midfield. Yards lost near one’s own goal line can be more costly as well.
-* EPA is a method of assigning relational value to these different type of plays.
+* **Not All Plays Are Created Equal** - EPA is a method of assigning relational value to these different type of plays.
 
 ## Data and Munging - The Playing Field
 * Original dataset is listed by play, grouped by game_id
