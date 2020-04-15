@@ -16,12 +16,12 @@
 * Field position is also an important consideration. Yards gained near the goal line are tougher to come by and are more valuable than yards gained at midfield. Yards lost near one’s own goal line can be more costly as well.
 * EPA is a method of assigning relational value to these different type of plays.
 
-## Data and Munging - The Playing Field (SQL)
+## Data and Munging - The Playing Field
 * Original dataset is listed by play, grouped by game_id
 * Needed to remove non-plays (time-outs, penalties)
 * Narrowed down to two lines per game_id for each team. Separated by home and away
 * Creating a moving average of 3 previous games to populate in the rows of data. 
-
+*SQL*
 ![](Images/SQL.png)
 
 *Merging and appending in Pandas*
