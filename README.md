@@ -51,7 +51,7 @@
 ## Model Outcomes and Acknowledgements
 * What are our insights from the various model runs?  All data was too much noise?  
 * Turnovers are too unpredictable
-* Models WITH EPA provided a higher accuracy result
+* Models with EPA provided a higher accuracy result
 * We have no ‘soft factors’ accounted for such as weather, home field advantage, etc.
 
 ## Correlation Between Team EPA and Making the Playoffs
@@ -71,6 +71,6 @@ Opportunities:
 * Gambling Applications
 
 ## Conclusion
-Publicly available data can help us better commentate, project, and analyze the game of football. It can be useful when making decisions in fantasy sports or when wagering on games, but it doesn't replace X's and O's
+Publicly available data can help us better commentate, project, and analyze the game of football. It can be useful when making decisions in fantasy sports or when wagering on games, but it doesn't replace X's and O's:
 ![](Images/TurningPoint.png)
 
