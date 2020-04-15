@@ -21,6 +21,7 @@
 * Needed to remove non-plays (time-outs, penalties)
 * Narrowed down to two lines per game_id for each team. Separated by home and away
 * Creating a moving average of 3 previous games to populate in the rows of data. 
+
 *SQL*
 ![](Images/SQL.png)
 
