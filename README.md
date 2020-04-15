@@ -23,6 +23,7 @@
 * Creating a moving average of 3 previous games to populate in the rows of data. 
 
 *SQL*
+
 ![](Images/SQL.png)
 
 *Merging and appending in Pandas*
