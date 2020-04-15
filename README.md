@@ -28,10 +28,11 @@
 ![](Images/pandas.png)
 
 ## Model - Trusting The Process
-* Used a Deep Learning Sequential model with a dense layers, 
-* We began our model with a near perfect accuracy of 99%. Quickly determined what our issue was
-* Removed score of both teams, used results of the games the model was predicting. 
-* Want the model to be trained based on what data it is going to use when predicting  
+* Used a Deep Learning Sequential model with a dense layers
+** Dense Layer = a regular layer of neurons in a neural network. Each neuron receives input from all the neurons in the previous layer, thus densely connected.
+* Model used MA over last 3 games to make prediction on outcome of the game
+* Data Points - EPA, Total Yards, Air Yards, Turnovers, Rush Attempts, Pass Attempts
+* To predict wins - look at a rolling 3 game average of stats per Game ID, then compare to a second team, run the 200 epochs, then make its prediction and finally look at the results to see if it was correct.
 
 ## Most Effective Model - EPA, Air Yards
 200 epochs - 5 Runs: 
@@ -43,7 +44,8 @@
 * AVG: 58%
 ![](Images/effmodel.png)
 
-## Team Total EPA for the Season per Each Model Ran
+## Models Ran
+*We ran 6 models a total of 5 times to determine accuracy. The advanced stats of EPA and Air Yards produced the highest accuracy.
 ![](Images/teamtotalEPA.png)
 
 ## Model Outcomes and Acknowledgements
@@ -52,10 +54,10 @@
 * Models WITH EPA provided a higher accuracy result
 * We have no ‘soft factors’ accounted for such as weather, home field advantage, etc.
 
-## NFL Teams Total EPA Highlighted by Playoff Team or Not
+## Correlation Between Team EPA and Making the Playoffs
 ![](Images/AllTeamsEPA.png)
 
-## Chiefs EPA By Game
+## Chiefs EPA By Game and Points Scored
 ![](Images/ChiefsEPAByGame.png)
 
 ## Lessons Learned - Overtime
